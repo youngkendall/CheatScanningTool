@@ -14,8 +14,10 @@ known_cheats = ['d3d10.dll', 'chrome.exe', 'public.zip', 'loader.exe', 'public.r
                 'cheats.rar', 'cheats.zip', 'rp.rar', 'RP.rar', 'Roleplay.rar', 'Roleplay.zip']
 found_cheats = []
 deleted_files = []
-usb_devices = []
+usb_devices = [] 
 scan_running = False
+
+--Test
 
 def send_webhook_message(embed):
     """Send a message to the Discord webhook."""
